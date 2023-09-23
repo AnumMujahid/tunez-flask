@@ -18,5 +18,5 @@ def generate_music():
     )
     return send_file(result, as_attachment=True)
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
